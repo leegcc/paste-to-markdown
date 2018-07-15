@@ -1,0 +1,42 @@
+{
+    "name": "paste-to-markdown",
+    "displayName": "Paste To Markdown",
+    "description": "Paste to Markdown.",
+    "repository": {
+        "url": ""
+    },
+    "version": "0.0.1",
+    "publisher": "leeg",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.pasteToMarkdown"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.pasteToMarkdown",
+                "title": "Paste To Markdown"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "turndown": "^4.0.2"
+    }
+}
