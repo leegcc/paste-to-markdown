@@ -3,10 +3,10 @@
     "displayName": "Paste To Markdown",
     "description": "Paste to Markdown.",
     "repository": {
-        "url": ""
+        "url": "https://github.com/leegcc/paste-to-markdown.git"
     },
     "version": "0.0.1",
-    "publisher": "leeg",
+    "publisher": "leegcc",
     "engines": {
         "vscode": "^1.25.0"
     },
